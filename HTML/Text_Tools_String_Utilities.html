@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Text_Tools_String_Utilities.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+
+    <section id="main">
+                <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li>
+                <a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a>
+            </li>
+            <li><a class="options" href="./RGB_HEX_Converter.html">RGb to hex Convertor</a></li>
+            <li><a class="options" href="./Unit_Converters.html">Unit Convertor</a></li>
+            <li><a class="options" href="./Timestamp_Converter.html">Timestamp Converter</a></li>
+            <li style="background-color: #000022;"><a class="options" href="./Text_Tools_String_Utilities.html">String Utility</a></li>
+            <li><a class="options" href="./Number_Base_Converters.html">Number Base Converters</a></li>
+        </div>
+
+        <div class="Encoder_Decoder">
+            <div class="heading">
+                <h1>String Utility:</h1>
+                <p></p>
+                <h3>Select the option:</h3>
+                <input type="text" id="operation" list="operations" placeholder="split">
+                <datalist id="operations">
+                    <option value="split"></option>
+                    <option value="To Uppercase"></option>
+                    <option value="To Lowercase"></option>
+                    <option value="Reverse"></option>
+                    <option value="character count"></option>
+                    <option value="word count"></option>
+                  </datalist>
+            </div>
+            <div class="main_box">
+                <div class="input_output">
+                    <label for="URL_input">Input Area :</label><br>
+                    <textarea name="input " id="URL_input" cols="30 " rows="10 "></textarea>
+                    <label for="splitchar">Splitting Char:</label>
+                    <input type="text" id="splitchar" style="width:40px; height:30px;">
+                </div>
+                <button type="submit" id="button" style="margin: 0% 5%;">Convert</button>
+                <div class="input_output">
+                    <label for="URL_output">Output Area :</label><br>
+                    <textarea name="output" id="URL_output" cols="30 " rows="10 "></textarea>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="../JS/Text_Tools_String_Utilities.js"></script>
+</body>
+
+</html>
+
+</html>

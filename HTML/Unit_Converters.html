@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Unit_Converters.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+
+    <section id="main">
+
+        <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li>
+                <a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a></li>
+            <li><a class="options " href="./RGB_HEX_Converter.html ">RGb to hex Convertor</a></li>
+            <li style="background-color: #000022;">
+                <a class="options " href="./Unit_Converters.html ">Unit Convertor</a></li>
+            <li><a class=" options " href="./Timestamp_Converter.html ">Timestamp Converter</a></li>
+            <li><a class="options " href="./Text_Tools_String_Utilities.html ">String Utility</a></li>
+            <li><a class="options " href="./Number_Base_Converters.html ">Number Base Converters</a></li>
+        </div>
+
+        <div class="Encoder_Decoder ">
+            <div class="heading ">
+                <h1>Unit Conversion</h1>
+                <p></p>
+                <h3>Select the option:</h3>
+                <input type="text " id="operation" list="operations " placeholder="m to cm ">
+                <datalist id="operations ">
+                    <option value="m to cm"></option>
+                    <option value="cm to m"></option>
+                    <option value="m to km"></option>
+                    <option value="km to m"></option>
+                    <option value="cm to km"></option>
+                    <option value="km to cm"></option>
+                    <option value="m to foot"></option>
+                    <option value="cm to foot"></option>
+                    <option value="foot to km"></option>
+                    <option value="km to foot"></option>
+                    <option value="foot to m"></option>
+                    <option value="foot to cm"></option>
+                </datalist>
+            </div>
+            <div class="main_box " style="display:flex; justify-content:center;align-items:flex-start;flex-direction:column; ">
+                <label for="input1">Enter value to convert:<input type="text " id="input1" style="margin-top: 18px; "><br><button type="submit" style="margin-top:20px;">Convert</button></label>
+                <label for="#conversion" style="display:flex; justify-content:center;align-items:center; ">value after conversion:<textarea name=" " id="conversion" cols="30 " rows="10 "></textarea></label>
+            </div>
+        </div>
+
+    </section>
+
+    <script src=" ../JS/Unit_Converters.js "></script>
+</body>
+
+</html>
+
+</html>

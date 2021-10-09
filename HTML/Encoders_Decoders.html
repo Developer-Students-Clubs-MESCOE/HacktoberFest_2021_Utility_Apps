@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Encoders_Decoders.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+
+    <section id="main">
+        <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li style="background-color: #000022;"><a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a></li>
+            <li><a class="options" href="./RGB_HEX_Converter.html">RGb to hex Convertor</a></li>
+            <li><a class="options" href="./Unit_Converters.html">Unit Convertor</a></li>
+            <li><a class="options" href="./Timestamp_Converter.html">Timestamp Converter</a></li>
+            <li><a class="options" href="./Text_Tools_String_Utilities.html">String Utility</a></li>
+            <li><a class="options" href="./Number_Base_Converters.html">Number Base Converters</a></li>
+        </div>
+
+        <div class="Encoder_Decoder">
+            <div class="heading">
+                <h1>Encoder / Decoder :</h1>
+                <p></p>
+                <label for="operation">Select</label>
+                <input type="text" id="operation" list="operations">
+                <datalist id="operations">
+                    <option value="URL Percent Encoding">
+                    <option value="URL Percent Decoding">
+                    <option value="Base64 Decode">
+                    <option value="Base64 Encode">
+                    <option value="MD5 Hash Generator">
+                    <option value="SHA-1 Hash Generator">
+                    <option value="SHA-256 Hash Generator">
+                    <option value="SHA-512 Hash Generator">
+                  </datalist>
+            </div>
+            <div class="main_box">
+                <div class="input_output">
+                    <label for="URL_input">Input Area :</label><br>
+                    <textarea name="input " id="URL_input" cols="30 " rows="10 "></textarea>
+                </div>
+                <button type="submit" id="button">Encode / Deocde</button>
+                <div class="input_output">
+                    <label for="URL_output">Output Area :</label><br>
+                    <textarea name="output" id="URL_output" cols="30 " rows="10 "></textarea>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="../JS/Encoders_Decoders.js "></script>
+</body>
+
+</html>
+
+</html>

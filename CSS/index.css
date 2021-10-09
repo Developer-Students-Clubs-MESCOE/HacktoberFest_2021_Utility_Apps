@@ -1,0 +1,72 @@
+    body {
+        background-color: whitesmoke;
+    }
+    
+    #main {
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 10%;
+        margin-bottom: 0px;
+    }
+    
+    nav {
+        background-color: #000022;
+        display: flex;
+        width: 100%;
+        height: 8vh;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        color: #ffff;
+        z-index: 2;
+        margin-bottom: 10%;
+    }
+    
+    a {
+        text-decoration: none;
+        width: 220px;
+        height: 220px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000022;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    a:hover {
+        box-shadow: 5px 10px #888888;
+    }
+    
+    #utilityApps {
+        margin-top: 4%;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        nav{
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen and (min-width: 500px) {
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }

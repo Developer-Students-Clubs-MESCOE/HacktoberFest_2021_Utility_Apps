@@ -1,0 +1,146 @@
+body {
+    background-color: whitesmoke;
+}
+
+#main {
+    background-color: whitesmoke;
+}
+
+li {
+    list-style-type: none;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 4%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #000022;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 30px;
+    color: #ffff;
+    z-index: 2;
+    margin-bottom: 10%;
+}
+
+.radio_button {
+    margin-left: 20px;
+}
+
+.button {
+    margin: 50%;
+}
+
+.rgb-control {
+    width: 50px;
+    height: 25px;
+    margin: 5% 0%;
+    margin-top: 7%;
+}
+
+label {
+    margin: 2% 2% 0%;
+}
+
+@media only screen and (min-width: 500px) {
+    .main_box {
+        width: 75%;
+        display: flex;
+        align-items: flex-start;
+        height: 50%;
+        flex-direction: column;
+        display:flex;justify-content:space-evenly; margin:40px;
+    }
+    .slide_bar {
+        display: flex;
+        flex-direction: column;
+        background-color: #001242;
+        position: fixed;
+        left: 0px;
+        top: 50px;
+        height: 100vh;
+        width: 15%;
+    }
+    .Encoder_Decoder {
+        display: flex;
+        position: absolute;
+        left: 20%;
+        top: 2%;
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main_box {
+        width: 75%;
+        display: flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        height: 50%;
+        flex-direction: column;
+        display:flex; margin:40px;
+    }
+    .slide_bar {
+        background-color: #001242;
+        height: 100%;
+        width: 60%;
+        position: fixed;
+        top: 8vh;
+        left: 0px;
+        z-index:3;
+    }
+    .Encoder_Decoder {
+        margin: 50px auto auto auto;
+        display: flex;
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        width: 75%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    nav{
+        font-size:20px;
+    }
+    .icon{
+        z-index: 3;
+        display: flex;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+}
+
+.options {
+    text-decoration: none;
+    font-size: large;
+    width: auto;
+    color: #0055ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

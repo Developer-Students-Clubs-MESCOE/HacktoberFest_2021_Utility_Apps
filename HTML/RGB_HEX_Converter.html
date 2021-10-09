@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/RGB_HEX_Converter.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+    <section id="main">
+                <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li><a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a></li>
+            <li style="background-color: #000022;"><a class="options" href="./RGB_HEX_Converter.html">RGb to hex Convertor</a></li>
+            <li><a class="options" href="./Unit_Converters.html">Unit Convertor</a></li>
+            <li><a class="options" href="./Timestamp_Converter.html">Timestamp Converter</a></li>
+            <li><a class="options" href="./Text_Tools_String_Utilities.html">String Utility</a></li>
+            <li><a class="options" href="./Number_Base_Converters.html">Number Base Converters</a></li>
+        </div>
+
+        <div class="Encoder_Decoder">
+            <div class="heading">
+                <h1>Hex to RGB Convertor</h1>
+                <p></p>
+
+            </div>
+            <div class="main_box">
+                <label for="hexinput">Hex:</label>
+                <input type="text" id="hexinput" class="rgb-control" placeholder="#000000">
+                <button type="submit" id="button1" style="margin-top: 14px;">Convert</button>
+            </div>
+            <div id="output">
+                <div id="colorbox1" style="height:50px; width:50px; border:1px solid black; margin:5px;"></div><br>
+                <label for="Rgb_color_code">Rgb color code:<br></label>
+                <textarea name="Rgb color code" id="Rgb_color_code" cols="30" rows="10">Rgb color code</textarea>
+            </div>
+            <div class="heading">
+                <h1>RGB - HEX Convertor</h1>
+                <p></p>
+            </div>
+            <div class="main_box">
+                <label for="#r">Red color:<br></label>
+                <input type="number" min="0" max="255" step="1" name="r" id="r" class="rgb-control" placeholder="0" autofocus="" oninput="">
+                <label for=" #g ">Green color:<br></label>
+                <input type="number " min="0 " max="255 " step="1 " name="r " id="g " class="rgb-control " placeholder="0 " autofocus=" " oninput="">
+                <label for="#b ">Blue color:<br></label>
+                <input type="number " min="0 " max="255 " step="1 " name="r " id="b " class="rgb-control " placeholder="0 " autofocus=" " oninput="">
+                <button type="submit " id="button2" style="margin-top: 12px; ">Convert</button>
+            </div>
+            <div id="output " style="margin-bottom:20px; ">
+                <div id="colorbox2" style="height:50px; width:50px; border:1px solid black; margin:5px; "></div><br>
+                <label for="Hex color code ">Hex color code:<br></label>
+                <textarea name="Hex color code " id="Hex_color_code" cols="30 " rows="10 ">Hex color code</textarea><br>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="../JS/RGB_HEX_Converter.js "></script>
+</body>
+
+</html>
+
+</html>

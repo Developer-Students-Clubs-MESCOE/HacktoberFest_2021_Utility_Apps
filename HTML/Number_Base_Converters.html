@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Number_Base_Converters.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+    <section id="main">
+        
+        <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li><a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a></li>
+            <li><a class="options" href="./RGB_HEX_Converter.html">RGb to hex Convertor</a></li>
+            <li><a class="options" href="./Unit_Converters.html">Unit Convertor</a></li>
+            <li><a class="options" href="./Timestamp_Converter.html">Timestamp Converter</a></li>
+            <li><a class="options" href="./Text_Tools_String_Utilities.html">String Utility</a></li>
+            <li style="background-color: #000022;"><a class="options" href="./Number_Base_Converters.html">Number Base Converters</a></li>
+        </div>
+
+        <div class="Encoder_Decoder">
+            <div class="heading">
+                <h1>Number Base Converter</h1>
+                <p></p>
+                <h3>Select the option:</h3>
+                <input type="text" id="operation" list="operations" placeholder="Binary To Decimal Converter">
+                <datalist id="operations">
+                    <option value="Binary To Decimal Converter"></option>
+                    <option value="Binary To Hex Converter"></option>
+                    <option value="Binary To Octal Converter"></option>
+                    <option value="Decimal To Binary Converter"></option>
+                    <option value="Decimal To Hex Converter"></option>
+                    <option value="Decimal To Octal Converter"></option>
+                    <option value="Hex To Binary Converter"></option>
+                    <option value="Hex To Decimal Converter"></option>
+                    <option value="Hex To Octal Converter"></option>
+                    <option value="Octal To Binary Converter"></option>
+                    <option value="Octal To Decimal Converter"></option>
+                    <option value="Octal To Hex Converter"></option>
+                  </datalist>
+            </div>
+            <div class="main_box">
+                <div class="input_output">
+                    <label for="URL_input">Input Area :</label><br>
+                    <textarea name="input " id="URL_input" cols="30 " rows="10 "></textarea>
+                </div>
+                <button type="submit" id="button" style="margin: 0% 5%;">Convert</button>
+                <div class="input_output">
+                    <label for="URL_output">Output Area :</label><br>
+                    <textarea name="output" id="URL_output" cols="30 " rows="10 "></textarea>
+                </div>
+            </div>
+
+    </section>
+
+    <script src="../JS/Number_Base_Converters.js"></script>
+</body>
+
+</html>
+
+</html>

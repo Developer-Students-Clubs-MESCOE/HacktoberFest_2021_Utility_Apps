@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Timestamp_Converter.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+
+    <section id="main">
+                <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li><a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a></li>
+            <li><a class="options" href="./RGB_HEX_Converter.html">RGb to hex Convertor</a></li>
+            <li><a class="options" href="./Unit_Converters.html">Unit Convertor</a></li>
+            <li style="background-color: #000022;"><a class="options" href="./Timestamp_Converter.html">Timestamp Converter</a></li>
+            <li><a class="options" href="./Text_Tools_String_Utilities.html">String Utility</a></li>
+            <li><a class="options" href="./Number_Base_Converters.html">Number Base Converters</a></li>
+        </div>
+
+        <div class="Encoder_Decoder">
+            <h2 style="margin-bottom: 0px; margin-top:7%;">Epoch to Humnan Date Convertor:</h2>
+            <p></p>
+            <div class="main_box">
+                <label for="epoch">Epoch:<input type="text" id="epoch"><button type="submit" id="button1" style="margin:5px; height:20px;width:auto;">Epoch to Human Date</button></label>
+            </div>
+            <label for="humandate">Human Date:</label>
+            <textarea name="" id="Output_humandate" cols="30" rows="10" style="margin:20px 70px; width:50%; "></textarea>
+            <h2 style=" margin-bottom: 0px; margin-top:2%; ">Humnan Date to Epoch Convertor:</h2>
+            <div class="main_box">
+                <div style="display:flex;justify-content:space-evenly; margin:40px; @media only screen and (max-width: 500px)  ">
+                    <label for="year ">Year:</label><input class="human_date" type="text " id="year " style="width: 60px;height:40px ">
+                    <label for="month ">Month:</label>
+                    <input type="number " min="1 " max="12 " step="1 " name="month " id="month" class="human_date" style="width: 60px; height:40px " placeholder="0 " autofocus=" ">
+                    <label for="day ">Day:<br></label>
+                    <input type="number " min="1 " max="31 " step="1 " name="day " id="day " class="human_date" placeholder="0 " style="width: 60px;height:40px " autofocus=" ">
+                </div>
+                <div style="display:flex;justify-content:space-evenly; margin:40px; ">
+                    <label for="hr ">Hr:</label>
+                    <input type="number " min="0 " max="23 " step="1 " name="r " id="hr " class="human_date" placeholder="0 " autofocus=" " style="width: 60px;height:40px ">
+                    <label for="min ">min:</label>
+                    <input type="number " min="0 " max="60 " step="1 " name="r " id="min " class="human_date" placeholder="0 " autofocus=" " style="width: 60px;height:40px ">
+                    <label for="sec ">sec:</label>
+                    <input type="number " min="0 " max="60 " step="1 " name="r " id="sec " class="human_date" placeholder="0 " autofocus=" " style="width: 60px;height:40px ">
+                </div>
+            </div>
+            <button type="submit " style=" height:20px; margin-top:20px; " id="button2">Human date to epoch</button>
+            <label for="EPoch ">Epoch ouput:</label>
+            <textarea name=" " id="Epoch_output " cols="30 " rows="10 " style="margin:20px 70px; width:50%; "></textarea>
+        </div>
+
+
+    </section>
+
+    <script src="../JS/Timestamp_Converter.js "></script>
+</body>
+
+</html>
+
+</html>
