@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Temperature Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../CSS/Temperature_Converter.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav><img src="../icons8-menu-24.png" id ="line" class="icon"/><img src="../icons8-close-window-50.png" id="cross" class="icon"/>Hello welcome to Utility APP</nav>
+
+    <section id="main">
+        <div class="slide_bar">
+            <i class="fa fa-bars"></i>
+            <li><a class="options" href="../index.html">Home</a></li>
+            <li><a class="options" href="./Encoders_Decoders.html">Encoder / Decoder</a></li>
+            <li><a class="options" href="./RGB_HEX_Converter.html">RGb to hex Convertor</a></li>
+            <li><a class="options" href="./Unit_Converters.html">Unit Convertor</a></li>
+            <li><a class="options" href="./Timestamp_Converter.html">Timestamp Converter</a></li>
+            <li><a class="options" href="./Text_Tools_String_Utilities.html">String Utility</a></li>
+            <li><a class="options" href="./Number_Base_Converters.html">Number Base Converters</a></li>
+            <li style="background-color: #000022;"><a class="options" href="./Temperature_Converter.html">Temperature Converter</a></li>
+        </div>
+
+        <div class="Encoder_Decoder">
+            <div class="header">
+                <br>
+                <h1>Temperature Converter</h1>
+            </div>
+            <div class="main_box">
+                <h3>Enter value in any of the scale</h3>
+                <div>
+                  <label>Fahrenheit</label>
+                  <input id="inputFahrenheit" class="w3-input w3-border" type="number" min="-459.66999999999996" placeholder="Fahrenheit" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                </div>
+                <div>
+                  <label>Celsius</label>
+                  <input id="inputCelsius" class="w3-input w3-border" type="number" min="-273.15" placeholder="Celsius" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                </div>
+                <div>
+                  <label>Kelvin</label>
+                  <input id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="Kelvin" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../JS/Temperature_Converter.js"></script>
+</body>
+
+</html>
+
+</html>
