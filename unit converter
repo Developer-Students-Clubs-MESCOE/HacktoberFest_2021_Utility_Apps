@@ -1,0 +1,44 @@
+txtError.Visibility = Visibility.Collapsed;  
+ if (txtFrom.Text == "")  
+ {  
+     txtFrom.Text = "";  
+     txtResult.Text = "";  
+ }  
+ else  
+ {  
+     // Grams //  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Grams"))))  
+     {  
+         if (txtFrom.Text.Contains('.'))  
+         {  
+             txtResult.Text = txtFrom.Text;  
+         }  
+         else  
+         {  
+             txtResult.Text = txtFrom.Text;  
+         }  
+     }  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Kilograms"))))  
+     {  
+             txtResult.Text = Convert.ToString(Convert.ToDouble(txtFrom.Text) * 0.001);  
+     }  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Metric tonnes"))))  
+     {  
+             txtResult.Text = Convert.ToString(Convert.ToDouble(txtFrom.Text) * 0.000001);  
+     }  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Short ton"))))  
+     {  
+             txtResult.Text = Convert.ToString(Convert.ToDouble(txtFrom.Text) * 0.000001);  
+     }  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Long ton"))))  
+     {  
+             txtResult.Text = Convert.ToString(Convert.ToDouble(txtFrom.Text) * 9.84e-07);  
+     }  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Pounds"))))  
+     {  
+             txtResult.Text = Convert.ToString(Convert.ToDouble(txtFrom.Text) * 0.002205);  
+     }  
+     if ((btnLstFrom.Content.Equals("Grams") && (btnLstTo.Content.Equals("Ounces"))))  
+     {  
+             txtResult.Text = Convert.ToString(Convert.ToDouble(txtFrom.Text) * 0.035273);  
+     }
